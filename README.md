@@ -69,6 +69,18 @@ Then the next step is to 'Terraform apply' the static ressource created in the o
 
 ## III - Airflow Orchestrator Deployment : 
 
-  gcloud composer environments create example-environment \
-      --location us-central1 \
-      --image-version composer-1.19.11-airflow-1.10.15
+#### Airflow environment creation via gcloud CLI :
+
+To keep it simple, I will create an Airflow env with a basic setup.
+To do so, i run the following command in the cloud shell :
+
+`gcloud composer environments create ar-composer-environment \
+      --location europe-west1 \
+      --image-version composer-2.0.29-airflow-2.2.5`
+
+
+
+#### Airflow environment creation via UI :
+
+In Composer service, select **CREATE ENVIRONMENT** > **Composer 2**
+![image](https://user-images.githubusercontent.com/68516240/198031970-ae0bfc46-ef19-4f72-bede-f58dc513dba2.png)
