@@ -1,0 +1,132 @@
+[
+    {
+      "name": "weather",
+      "type": "STRING",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "base",
+      "type": "STRING",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "visibility",
+      "type": "STRING",
+      "mode": "REQUIRED"
+    },
+    {
+        "name": "visibility",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "dt",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "timezone",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "id",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "name",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "cod",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "coord.lon",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "coord.lat",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main.temp",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main.feels_like",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main.temp_min",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main.temp_max",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main.pressure",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main.temp_min",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main.humidity",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "wind.speed",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "wind.deg",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "clouds.all",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "sys.type",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "sys.id",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "sys.country",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "sys.sunrise",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "sys.sunset",
+        "type": "STRING",
+        "mode": "REQUIRED"
+      }
+  ]
