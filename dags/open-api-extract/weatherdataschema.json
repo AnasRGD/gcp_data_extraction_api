@@ -14,11 +14,6 @@
       "type": "STRING",
       "mode": "REQUIRED"
     },
-    {
-        "name": "visibility",
-        "type": "STRING",
-        "mode": "REQUIRED"
-      },
       {
         "name": "dt",
         "type": "STRING",
@@ -45,87 +40,82 @@
         "mode": "REQUIRED"
       },
       {
-        "name": "coord.lon",
+        "name": "coord_lon",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "coord_lat",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main_temp",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main_feels_like",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main_temp_min",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main_temp_max",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "main_pressure",
         "type": "STRING",
         "mode": "REQUIRED"
       },
       {
-        "name": "coord.lat",
+        "name": "main_humidity",
         "type": "STRING",
         "mode": "REQUIRED"
       },
       {
-        "name": "main.temp",
+        "name": "wind_speed",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+      },
+      {
+        "name": "wind_deg",
         "type": "STRING",
         "mode": "REQUIRED"
       },
       {
-        "name": "main.feels_like",
+        "name": "clouds_all",
         "type": "STRING",
         "mode": "REQUIRED"
       },
       {
-        "name": "main.temp_min",
+        "name": "sys_type",
         "type": "STRING",
         "mode": "REQUIRED"
       },
       {
-        "name": "main.temp_max",
+        "name": "sys_id",
         "type": "STRING",
         "mode": "REQUIRED"
       },
       {
-        "name": "main.pressure",
+        "name": "sys_country",
         "type": "STRING",
         "mode": "REQUIRED"
       },
       {
-        "name": "main.temp_min",
+        "name": "sys_sunrise",
         "type": "STRING",
         "mode": "REQUIRED"
       },
       {
-        "name": "main.humidity",
-        "type": "STRING",
-        "mode": "REQUIRED"
-      },
-      {
-        "name": "wind.speed",
-        "type": "STRING",
-        "mode": "REQUIRED"
-      },
-      {
-        "name": "wind.deg",
-        "type": "STRING",
-        "mode": "REQUIRED"
-      },
-      {
-        "name": "clouds.all",
-        "type": "STRING",
-        "mode": "REQUIRED"
-      },
-      {
-        "name": "sys.type",
-        "type": "STRING",
-        "mode": "REQUIRED"
-      },
-      {
-        "name": "sys.id",
-        "type": "STRING",
-        "mode": "REQUIRED"
-      },
-      {
-        "name": "sys.country",
-        "type": "STRING",
-        "mode": "REQUIRED"
-      },
-      {
-        "name": "sys.sunrise",
-        "type": "STRING",
-        "mode": "REQUIRED"
-      },
-      {
-        "name": "sys.sunset",
+        "name": "sys_sunset",
         "type": "STRING",
         "mode": "REQUIRED"
       }
